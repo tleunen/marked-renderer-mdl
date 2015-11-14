@@ -1,6 +1,6 @@
 {
   "name": "marked-renderer-mdl",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Material-Design-Lite renderer for Marked (Markdown)",
   "main": "lib/index.js",
   "keywords": [
