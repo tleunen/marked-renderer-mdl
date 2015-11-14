@@ -21,9 +21,6 @@ console.log(marked('# heading', { renderer: mdlRenderer }));
 
 MIT, see [LICENSE.md](/LICENSE.md) for details.
 
-[travis-image]: https://travis-ci.org/tleunen/react-mdl.svg?branch=master
-[travis-url]: https://travis-ci.org/tleunen/react-mdl
-[coveralls-image]: https://coveralls.io/repos/tleunen/react-mdl/badge.svg?branch=master&service=github
-[coveralls-url]: https://coveralls.io/github/tleunen/react-mdl?branch=master
+[travis-image]: https://travis-ci.org/tleunen/marked-renderer-mdl.svg?branch=master
+[travis-url]: https://travis-ci.org/tleunen/marked-renderer-mdl
 [google-mdl-url]: https://github.com/google/material-design-lite
-[discord-url]: https://discord.gg/0ZcbPKXt5bWTpxL5
