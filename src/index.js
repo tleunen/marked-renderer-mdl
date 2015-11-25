@@ -13,9 +13,10 @@ renderer.heading = (text, level) => {
     ];
 
     const className = `mdl-typography--${headingClasses[level - 1]}`;
+    const id = text.replace(/ /g, '-').toLowerCase();
 
     return (
-        `<h${level} class="${className}">${text}</h${level}>\n`
+        `<h${level} id="${id}" class="${className}">${text}</h${level}>\n`
     );
 };
 

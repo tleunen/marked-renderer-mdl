@@ -19,8 +19,8 @@ describe('marked-renderer-mdl', () => {
             const prefix = new Array(headingLevel).fill('#').join('');
             const className = `mdl-typography--${headingsClasses[level]}`;
 
-            const actual = prefix + ' Heading';
-            const expected = `<h${headingLevel} class="${className}">Heading</h${headingLevel}>\n`;
+            const actual = prefix + ' My Heading';
+            const expected = `<h${headingLevel} id="my-heading" class="${className}">My Heading</h${headingLevel}>\n`;
 
             expect(marked(actual, { renderer: renderer })).toEqual(expected);
         });
