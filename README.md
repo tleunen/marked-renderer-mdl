@@ -24,3 +24,4 @@ MIT, see [LICENSE.md](/LICENSE.md) for details.
 [travis-image]: https://travis-ci.org/tleunen/marked-renderer-mdl.svg?branch=master
 [travis-url]: https://travis-ci.org/tleunen/marked-renderer-mdl
 [google-mdl-url]: https://github.com/google/material-design-lite
+[marked-url]: https://github.com/chjj/marked
